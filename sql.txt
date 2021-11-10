@@ -1,0 +1,21 @@
+import sql package  //java.sql.*
+main method and throws Exception
+try, throw, catch blocks //any two
+In try, 
+       1.to load driver
+       Class.forName();
+       2.database name,username,password
+       Connection con=driverManager.getConnection(");
+	3.
+       Statement st=con.createStatement();
+       4.
+	st.execute("insert into mphasis201 batch values(101,'prathyu','ap')");
+       System.out.println("Row Inserted");
+
+
+
+
+//implicit conversion
+byte a = 10;
+int b = a;
+System.out.println("The value of b is"+b);
